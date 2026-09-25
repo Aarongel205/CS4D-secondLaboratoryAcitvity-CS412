@@ -14,5 +14,42 @@
         </div>
         <div class="system-status" id="sys-status">USTeP Adaptive Engine: Active</div>
     </div>
+
+
+    <div class="workspace">
+       
+        <div class="model-inspector">
+            <h3>📊 User Model Attributes</h3>
+            <p style="font-size:11px; color:#888;">Mapped from survey data (N=15 respondents).</p>
+            <div id="inspector-content"></div>
+        </div>
+
+
+        <div class="editor-container">
+            <div class="editor-pane">
+                <div class="pane-header">
+                    <span id="lang-title">Environment: VS Code / USTeP [Language: Python]</span>
+                    <span id="format-status-label">Auto-Formatting: Enabled</span>
+                </div>
+                <textarea id="code-editor"># USTeP Programming Task Sandbox
+def calculate_metrics(data):
+    total = sum(data)
+    return total / len(data)
+
+
+print(calculate_metrics([10, 20, 30]))</textarea>
+                <div class="toolbar">
+                    <button onclick="runCodeTask()">Code Execution / Testing</button>
+                    <button onclick="triggerFormatting()">Automatic Formatting</button>
+                </div>
+            </div>
+
+
+            <div class="terminal-pane">
+                <div class="pane-header" style="background:#111; color:#ccc;">Syntax & Error Feedback / Debugging Tools</div>
+                <div class="terminal-screen" id="terminal-out">System initialized. Ready for code execution...</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
