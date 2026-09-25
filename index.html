@@ -10,7 +10,7 @@
     <div class="top-nav">
         <div class="profile-selector">
             <strong>Select User Model:</strong>
-            <label><input type="radio" name="profile" value="profile_a" checked onclick="loadProfile('profile_a')"> Profile A: Novice</label>
+            <label><input type="radio" name="profile" value="profile_a" checked onclick="loadProfile('profile_a')"> Profile A: Rare Coder/Novice</label>
             <label><input type="radio" name="profile" value="profile_b" onclick="loadProfile('profile_b')"> Profile B: Active Intermediate</label>
         </div>
         <div class="system-status" id="sys-status">USTeP Adaptive Engine: Active</div>
@@ -30,7 +30,7 @@
             <div class="editor-pane">
                 <div class="pane-header">
                     <span id="lang-title">Environment: VS Code / USTeP [Language: Python]</span>
-                    <span id="format-status-label">Auto-Formatting: Enabled</span>
+                    <span id="format-status-label">Enabled (Novice)</span>
                 </div>
                 <textarea id="code-editor"># USTeP Programming Task Sandbox
 def calculate_metrics(data):
@@ -41,7 +41,7 @@ def calculate_metrics(data):
 print(calculate_metrics([10, 20, 30]))</textarea>
                 <div class="toolbar">
                     <button onclick="runCodeTask()">Code Execution / Testing</button>
-                    <button onclick="triggerFormatting()">Automatic Formatting</button>
+                    <button id="format-button" onclick="triggerFormatting()">Automatic Formatting</button>
                 </div>
             </div>
 
