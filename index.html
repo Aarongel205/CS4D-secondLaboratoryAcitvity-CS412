@@ -6,6 +6,13 @@
     <title>USTeP Adaptive Coding Environment Prototype</title>
 </head>
 <body id="app-body" class="light-theme">
-    
+    <div class="top-nav">
+        <div class="profile-selector">
+            <strong>Select User Model:</strong>
+            <label><input type="radio" name="profile" value="profile_a" checked onclick="loadProfile('profile_a')"> Profile A: Novice</label>
+            <label><input type="radio" name="profile" value="profile_b" onclick="loadProfile('profile_b')"> Profile B: Active Intermediate</label>
+        </div>
+        <div class="system-status" id="sys-status">USTeP Adaptive Engine: Active</div>
+    </div>
 </body>
 </html>
