@@ -1,7 +1,7 @@
 ## Members
 
 ![Aaron Adanza](https://img.shields.io/badge/Aaron_Adanza-Aarongel205-red)
-![Dae Jay Doños](https://img.shields.io/badge/Dae_Jay_Doños-active-brightgreen)
+![Dae Jay Doños](https://img.shields.io/badge/Dae_Jay_Doños-DaeJayD-brightgreen)
 ![Niros Val Inojales](https://img.shields.io/badge/Niros_Val_Inojales-nirosval-blue)
 ![Franilyn Pailagao](https://img.shields.io/badge/Franilyn_Pailagao-yzerSAW-purple)
 ![Cydney Ruelo](https://img.shields.io/badge/Cydney_Ruelo-Sidnaur-yellow)
