@@ -1,11 +1,10 @@
-Mm=embers
+##Members
 
-![Red](https://img.shields.io/badge/status-active-red)
-![Green](https://img.shields.io/badge/status-active-brightgreen)
-![Blue](https://img.shields.io/badge/status-active-blue)
-![Purple](https://img.shields.io/badge/status-active-purple)
-![Yellow](https://img.shields.io/badge/status-active-yellow)
-![Pink](https://img.shields.io/badge/status-active-%23FF1493)
+![Aaron Adanza](https://img.shields.io/badge/status-active-red)
+![Dae Jay Doños](https://img.shields.io/badge/status-active-brightgreen)
+![Niros Val Inojales](https://img.shields.io/badge/status-active-blue)
+![Franilyn Pailagao](https://img.shields.io/badge/status-active-purple)
+![Cydney Ruelo](https://img.shields.io/badge/status-active-yellow)
 
 Cross-Tabulation & Patterns:
 While the overall frequencies show that most users are Intermediate and use AI often, they do not show the meaningful differences between users. To identify these differences, we cross-tabulated Experience Level with Coding Frequency, IDE Familiarity, and AI Purpose.
